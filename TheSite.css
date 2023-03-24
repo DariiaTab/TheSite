@@ -1,0 +1,95 @@
+@charset "UTF-8";
+body {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#title {
+    border-radius: 25px;
+    background-image: url(https://www.creativebug.com/pimage/dynamic/subject-slide~storage/public/images/tutorial_thumbnails/original/34/mso9texy4lta45inh93z.jpg);
+    background-color: #cccccc;;
+    padding: 20px;
+    width: 1000px;
+    height: 200px;
+
+    position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+
+#mainTitle {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1cc92a;
+    font-size:3em;
+    float: left;
+}
+
+#introduction {
+
+    border-radius: 25px;
+    background: #4237c2;
+    padding: 20px;
+    width: 800px;
+
+    position: relative;
+	top: 200;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+
+}
+
+.content {
+
+    border-radius: 25px;
+    background: #4958ff;
+    padding: 20px;
+    width: 800px;
+
+    position: relative;
+	top: 200;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+
+}
+
+.introduction-text {
+    color: #19c613;
+}
+
+.cool-list::after {
+    content:"✅"
+}
+
+.thingToSelect {
+    border-radius: 15px;
+    width:80px;
+	height:80px;
+	background-color:#05368b;
+    text-align: center;
+    color: white;
+    padding: 5px;
+
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+#mainImage{
+    float: right;
+}
