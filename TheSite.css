@@ -7,11 +7,11 @@ body {
 
 #title {
     border-radius: 25px;
-    background-image: url(https://www.creativebug.com/pimage/dynamic/subject-slide~storage/public/images/tutorial_thumbnails/original/34/mso9texy4lta45inh93z.jpg);
+    background-image: url(https://i.ibb.co/BcPBxKq/photo-5201846823508101699-y.jpg);
     background-color: #cccccc;;
     padding: 20px;
-    width: 1000px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 
     position: relative;
 	top: 0;
@@ -24,15 +24,79 @@ body {
 
 #mainTitle {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #1cc92a;
+    color: #f1d34d;
     font-size:3em;
     float: left;
 }
 
-#introduction {
+#Intro {
 
     border-radius: 25px;
-    background: #4237c2;
+    background: #fca6a6;
+    padding: 20px;
+    width: 800px;
+
+    position: relative;
+	top: 200;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+
+}
+#menu {
+
+    border-radius: 25px;
+    background: #fd8787;
+    padding: 20px;
+    width: 800px;
+
+    position: relative;
+	top: 200;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+
+}
+#WhatIsFelting {
+
+    border-radius: 25px;
+    background: #fe6d6d;
+    padding: 20px;
+    width: 800px;
+
+    position: sticky;
+	top: 200;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+
+}
+#WhatWillYouNeed {
+
+    border-radius: 25px;
+    background: #ff3a3a;
+    padding: 20px;
+    width: 800px;
+
+    position: relative;
+	top: 200;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+
+#Gallery {
+
+    border-radius: 25px;
+    background: #ff1717;
     padding: 20px;
     width: 800px;
 
@@ -46,12 +110,12 @@ body {
 
 }
 
-.content {
+#Info {
 
-    border-radius: 25px;
-    background: #4958ff;
+    border-radius: 80px;
+    background: #f05f5f;
     padding: 20px;
-    width: 800px;
+    width: 500px;
 
     position: relative;
 	top: 200;
@@ -61,35 +125,4 @@ body {
   	
 	margin: auto;
 
-}
-
-.introduction-text {
-    color: #19c613;
-}
-
-.cool-list::after {
-    content:"✅"
-}
-
-.thingToSelect {
-    border-radius: 15px;
-    width:80px;
-	height:80px;
-	background-color:#05368b;
-    text-align: center;
-    color: white;
-    padding: 5px;
-
-}
-
-a.fill-div {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    color: white;
-}
-
-#mainImage{
-    float: right;
 }
